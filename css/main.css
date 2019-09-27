@@ -338,7 +338,7 @@ h6 {
           padding-bottom: 3em; } }
 
 .testimonial__section {
-  margin: 5% auto 10% 2%;
+  margin: 5% auto 0 2%;
   width: 80%;
   height: 10rem;
   background-color: #30124E; }
