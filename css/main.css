@@ -490,7 +490,7 @@ h6 {
     .value__card2:hover--title {
       font-weight: 800; }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 368px) {
   .client__logo--title {
     margin-top: 2rem; }
   .client__logo--image {
