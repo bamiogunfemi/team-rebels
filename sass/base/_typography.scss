@@ -130,7 +130,6 @@ h6 {
   letter-spacing: 6px;
   text-transform: uppercase;
 }
-
 .title-medium{
   font-family: $default-font-family;
 font-style: normal;
@@ -141,15 +140,7 @@ letter-spacing: 4px;
 text-transform: uppercase;
 }
 
-.quote-small{
-font-family:$default-font-family-quote;
-font-style: italic;
-font-weight: normal;
-font-size: 1.25rem;
-line-height: 40px;
-display: flex;
-}
-.logo {
+.logo{
 font-family: $default-font-family;
 font-style: normal;
 font-weight: 900;
@@ -157,7 +148,6 @@ font-size: 24px;
 line-height: 43px;
 letter-spacing: 2px;
 }
-
 
 .nav-link {
   font-family: $default-font-family;
@@ -172,19 +162,12 @@ color: $color-white;
 
 
 
-
 .text-misc{
-  font-family: $default-font-family;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 12.6px;
-  line-height: 28px;
-  letter-spacing: 1px;
-}
-.title-small{
-font-family:$default-font-family;
 font-style: normal;
 font-weight: 800;
-font-size: 12.6px;
+font-size: 14.4px;
+line-height: 30px;
+letter-spacing: 2px;
+color: $color-white;
 }
 

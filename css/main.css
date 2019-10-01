@@ -146,14 +146,6 @@ h6 {
   letter-spacing: 4px;
   text-transform: uppercase; }
 
-.quote-small {
-  font-family: "Noticia Text", serif;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 1.25rem;
-  line-height: 40px;
-  display: flex; }
-
 .logo {
   font-family: "M PLUS 1p", sans-serif;
   font-style: normal;
@@ -173,18 +165,12 @@ h6 {
   color: #FCFCFC; }
 
 .text-misc {
-  font-family: "M PLUS 1p", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 12.6px;
-  line-height: 28px;
-  letter-spacing: 1px; }
-
-.title-small {
-  font-family: "M PLUS 1p", sans-serif;
   font-style: normal;
   font-weight: 800;
-  font-size: 12.6px; }
+  font-size: 14.4px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  color: #FCFCFC; }
 
 .u-text-center {
   text-align: center; }
@@ -210,115 +196,81 @@ h6 {
 .u-padding-none {
   padding: 0; }
 
-body {
-  width: 100%;
-  height: auto;
-  overflow-x: hidden; }
-
-.client__background {
-  padding-left: 5rem;
-  padding-top: 5rem; }
-
-.client__title {
-  text-transform: uppercase;
-  color: #F61067; }
-
-.client__body {
-  color: #150433;
-  font-weight: 800;
-  line-height: 1.5;
-  margin-bottom: 3rem; }
-
-.container {
-  float: left; }
+.client__part {
+  margin-top: 5%;
+  margin-bottom: 5%; }
+  .client__part--title {
+    text-transform: uppercase;
+    color: #F61067;
+    margin-left: 5%; }
+  .client__part--body {
+    color: #150433;
+    font-weight: 800;
+    margin-left: 5%; }
 
 .blue__bg {
-  background-color: #150433;
-  width: 50%; }
+  background: #150433;
+  position: relative;
+  z-index: 2; }
   .blue__bg--title {
+    margin-top: 15%;
+    font-weight: 800;
     text-align: center;
-    color: #F61067;
-    padding: 2rem 0rem;
-    margin-top: 2rem; }
+    color: #F61067; }
   .blue__bg--text {
     color: #FCFCFC;
-    text-align: justify;
-    padding-right: 4rem;
-    padding-left: 4rem; }
+    margin: 5% 10% 5% 10%; }
 
-.logo {
-  margin-left: 6rem; }
+.client__logo {
+  margin-top: 5%;
+  margin-bottom: 5%; }
+  .client__logo--title {
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #150433;
+    margin-left: 15%;
+    margin-bottom: 5%; }
+  .client__logo--image {
+    margin-left: 15%;
+    margin-bottom: 5%; }
 
-.banner {
-  z-index: 1;
+.client__bg {
+  padding-top: 10%;
   background-color: #30124E;
-  width: 100%;
-  color: #FCFCFC;
-  padding-right: 10rem; }
-
-.section-what-we-do {
-  overflow-x: hidden; }
-
-.what-we-do {
-  margin: 0 6rem 3rem 6rem; }
-  .what-we-do--image {
-    background-image: linear-gradient(to right bottom, rgba(246, 16, 103, 0.9), rgba(246, 16, 103, 0.9)), url("https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/left-side.png");
-    background-blend-mode: multiply;
-    margin-top: -10rem; }
-  .what-we-do__primary {
+  position: relative;
+  top: 40%;
+  z-index: 2; }
+  .client__bg--title {
     color: #F61067;
     text-transform: uppercase;
-    line-height: 26px;
-    letter-spacing: .2rem; }
+    margin-left: 5%; }
+  .client__bg--text {
+    color: #FCFCFC;
+    padding-bottom: 5%;
+    margin-left: 5%; }
 
-.row {
-  flex-wrap: nowrap; }
-  .row-primary {
-    background-color: #5E239D; }
-  .row-secondary {
-    background-color: #30124E; }
-  .row-tertiary {
-    background-color: #3A0475; }
+.value__card {
+  color: #FCFCFC;
+  border: 1px solid #FCFCFC;
+  margin-right: 2rem;
+  padding: 2rem;
+  margin-left: 5%;
+  margin-bottom: 10%; }
+  .value__card:hover {
+    background-color: #F61067; }
+  .value__card--number {
+    font-weight: 800;
+    color: #F61067; }
+  .value__card--title {
+    font-weight: 800; }
 
-.row__container--text {
-  display: flex;
-  flex-direction: row;
-  text-align: center; }
-
-.row-container {
-  display: flex;
-  flex-direction: column; }
-  .row-container__col {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    text-emphasis: center;
-    color: #FCFCFC; }
-
-.col-heading__primary {
-  margin: 4rem 6rem; }
-
-.col-heading__secondary {
-  margin: 4rem 4rem 3rem 4rem; }
-
-@media (max-width: 1364px) {
-  #row-what-we-do {
-    flex-wrap: wrap; }
-  .row_container {
-    margin: 2rem;
-    flex-wrap: wrap; }
-  .what-we-do {
-    margin: 0 2rem; }
-    .what-we-do--image {
-      display: none; }
-  .row {
-    flex-flow: wrap; }
-  .col-heading__primary {
-    margin: 2rem 0rem; }
-  .col-heading__secondary {
-    margin: 1rem 4rem; }
-  .what-we-do {
-    margin: 0 2rem; } }
+@media screen and (min-width: 368px) {
+  .client__logo--title {
+    margin-top: 2rem; }
+  .client__logo--image {
+    width: 300px;
+    padding-right: 10%;
+    padding-bottom: 5%; } }
 
 .footer-section {
   padding: 7rem;
@@ -383,7 +335,6 @@ body {
     justify-content: center;
     align-content: center; } }
 
-html,
 body {
   width: 100%;
   height: 100%;
@@ -399,13 +350,14 @@ header {
   background-size: 100% 100%;
   height: 35rem;
   width: 100%;
-  position: absolute; }
+  margin: 0;
+  position: relative; }
 
 .background {
   position: absolute;
+  top: 0;
   width: 100%;
   height: 100%;
-  top: 0;
   background: #30124E;
   mix-blend-mode: multiply;
   z-index: -2; }
@@ -434,9 +386,9 @@ nav {
 
 .vector {
   position: absolute;
-  left: 71%;
+  left: 68%;
   color: #FCFCFC;
-  margin-top: .3%; }
+  margin-top: .2%; }
 
 .text-one {
   color: #FCFCFC;
@@ -481,6 +433,7 @@ nav {
     box-sizing: border-box; }
 
 .misc-text {
+  color: #FCFCFC;
   position: absolute;
   width: 226px;
   height: 31px;
@@ -513,6 +466,17 @@ nav {
     top: 27px;
     color: #FCFCFC;
     transform: rotate(90deg); }
+
+@media (min-width: 769px) and (max-width: 950px) {
+  .big__text {
+    font-size: 3em;
+    margin-left: 6rem; }
+  .bg {
+    width: 700px; }
+    .bg .small-text {
+      left: 0; }
+  .arrow .Arrow {
+    left: 600px; } }
 
 @media screen and (max-width: 768px) {
   header {
@@ -1052,391 +1016,6 @@ nav {
     padding: .5em;
     border-radius: 50%;
     margin-left: 1.3em; }
-
-.card-section-02 {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-  .card-section-02 .card__upward {
-    display: flex;
-    flex-flow: column wrap; }
-    @media (min-width: 900px) and (max-width: 1200px) {
-      .card-section-02 .card__upward {
-        display: flex;
-        flex-flow: row wrap; } }
-    @media (min-width: 1201px) {
-      .card-section-02 .card__upward {
-        display: flex;
-        flex-flow: row wrap;
-        padding-left: 2em; } }
-    .card-section-02 .card__upward .upward-item-01 {
-      flex: 1;
-      padding: 1em 2em 1em 2em;
-      text-align: center; }
-      .card-section-02 .card__upward .upward-item-01 .item-01-h4 {
-        color: #F61067;
-        font-family: "M PLUS 1p", sans-serif;
-        font-size: 0.7em;
-        font-weight: 800;
-        font-style: normal;
-        letter-spacing: 0.2em;
-        text-transform: uppercase; }
-      .card-section-02 .card__upward .upward-item-01 .item-01-h1 {
-        font-family: "M PLUS 1p", sans-serif;
-        font-size: 2.5em;
-        font-weight: 500;
-        font-style: normal;
-        color: #30233D; }
-        @media (min-width: 900px) and (max-width: 1200px) {
-          .card-section-02 .card__upward .upward-item-01 .item-01-h1 {
-            font-family: "M PLUS 1p", sans-serif;
-            font-size: 1.8em;
-            font-weight: 500;
-            font-style: normal; } }
-        @media (min-width: 1201px) {
-          .card-section-02 .card__upward .upward-item-01 .item-01-h1 {
-            font-family: "M PLUS 1p", sans-serif;
-            font-size: 1.6em;
-            font-weight: 500;
-            font-style: normal;
-            padding: 0;
-            margin: 1em 0 1em 0;
-            line-height: 0; } }
-      .card-section-02 .card__upward .upward-item-01 .item-01-h3 {
-        font-family: "M PLUS 1p", sans-serif;
-        font-size: 1em;
-        font-weight: 800;
-        font-style: normal;
-        color: #30233D;
-        line-height: 1.5em; }
-        .card-section-02 .card__upward .upward-item-01 .item-01-h3 br {
-          display: none; }
-        @media (min-width: 1201px) {
-          .card-section-02 .card__upward .upward-item-01 .item-01-h3 {
-            font-family: "M PLUS 1p", sans-serif;
-            font-size: 0.7em;
-            font-weight: 800;
-            font-style: normal;
-            padding: 0;
-            margin: 1em 0 1em 0; }
-            .card-section-02 .card__upward .upward-item-01 .item-01-h3 br {
-              display: block; } }
-      .card-section-02 .card__upward .upward-item-01 .item-01-p {
-        font-family: "M PLUS 1p", sans-serif;
-        font-size: 1em;
-        font-weight: normal;
-        font-style: normal;
-        color: #776C82;
-        padding: 0.3em; }
-        .card-section-02 .card__upward .upward-item-01 .item-01-p br {
-          display: none; }
-        @media (min-width: 900px) and (max-width: 1200px) {
-          .card-section-02 .card__upward .upward-item-01 .item-01-p {
-            padding: 0;
-            margin: 1em 0 1em 0; } }
-        @media (min-width: 1201px) {
-          .card-section-02 .card__upward .upward-item-01 .item-01-p {
-            font-family: "M PLUS 1p", sans-serif;
-            font-size: 0.8em;
-            font-weight: normal;
-            font-style: normal;
-            padding: 0;
-            margin: 1em 0 1em 0; }
-            .card-section-02 .card__upward .upward-item-01 .item-01-p br {
-              display: block; } }
-      .card-section-02 .card__upward .upward-item-01 .item-01-button {
-        width: 50%;
-        height: 3em;
-        font-family: "M PLUS 1p", sans-serif;
-        font-size: 1em;
-        font-weight: 500;
-        font-style: normal;
-        background: #F61067;
-        color: #FFF;
-        border: none;
-        margin-top: 10em;
-        border-radius: 1.5em;
-        text-transform: uppercase;
-        outline: none;
-        cursor: pointer; }
-        .card-section-02 .card__upward .upward-item-01 .item-01-button:hover {
-          background: #df0672;
-          transition: all 1s ease-in-out; }
-        @media (min-width: 1201px) {
-          .card-section-02 .card__upward .upward-item-01 .item-01-button {
-            width: 25%;
-            margin: 1em 0 1em 0;
-            font-family: "M PLUS 1p", sans-serif;
-            font-size: 0.9em;
-            font-weight: 500;
-            font-style: normal; } }
-        @media (min-width: 900px) and (max-width: 1200px) {
-          .card-section-02 .card__upward .upward-item-01 .item-01-button {
-            font-family: "M PLUS 1p", sans-serif;
-            font-size: 0.9em;
-            font-weight: 500;
-            font-style: normal;
-            width: 70%;
-            margin: 1em 0 1em 0; } }
-      @media (min-width: 900px) and (max-width: 1200px) {
-        .card-section-02 .card__upward .upward-item-01 {
-          flex-grow: 15;
-          padding: 2em;
-          text-align: left; } }
-      @media (min-width: 1201px) {
-        .card-section-02 .card__upward .upward-item-01 {
-          flex-grow: 10;
-          padding: 2em 5em;
-          text-align: left; } }
-    .card-section-02 .card__upward .upward-item-02 {
-      background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Home_01_first_image.png");
-      background-blend-mode: normal;
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
-      background-position: cover;
-      flex: 1 0 25em;
-      text-align: center;
-      position: relative; }
-      @media (min-width: 500px) and (max-width: 900px) {
-        .card-section-02 .card__upward .upward-item-02 {
-          flex: 1 0 35em; } }
-      @media (min-width: 900px) and (max-width: 1200px) {
-        .card-section-02 .card__upward .upward-item-02 {
-          flex-grow: 2;
-          margin-top: 3em; } }
-      @media (min-width: 1201px) {
-        .card-section-02 .card__upward .upward-item-02 {
-          max-width: 20em;
-          margin-top: 3em; } }
-      .card-section-02 .card__upward .upward-item-02 .item-02-content {
-        padding: 1em;
-        margin: -14em auto 0 auto;
-        font-family: "M PLUS 1p", sans-serif;
-        font-size: 1em;
-        font-weight: normal;
-        font-style: italic; }
-        @media (min-width: 900px) and (max-width: 1200px) {
-          .card-section-02 .card__upward .upward-item-02 .item-02-content {
-            background: #30124E;
-            width: 15em;
-            position: absolute;
-            color: #FCFCFC;
-            top: 14em;
-            right: -10.0em;
-            padding: 5em;
-            height: 23.5em; } }
-        @media (min-width: 1201px) {
-          .card-section-02 .card__upward .upward-item-02 .item-02-content {
-            background: #30124E;
-            width: 13em;
-            position: absolute;
-            top: 20em;
-            right: -12em;
-            height: 17em;
-            z-index: 2; }
-            .card-section-02 .card__upward .upward-item-02 .item-02-content .fa {
-              font-size: 1.5em;
-              color: #F4F4ED; } }
-        @media (min-width: 1201px) {
-          .card-section-02 .card__upward .upward-item-02 .item-02-content .item-02-p {
-            color: #F4F4ED; } }
-        .card-section-02 .card__upward .upward-item-02 .item-02-content .fa {
-          font-size: 1.5em; }
-    .card-section-02 .card__upward .upward-item-03 {
-      display: none; }
-      @media (min-width: 900px) and (max-width: 1200px) {
-        .card-section-02 .card__upward .upward-item-03 {
-          display: block;
-          height: 25em;
-          width: 15em;
-          margin: 1.5em 0 5em -3em;
-          background: #30124E; } }
-      @media (min-width: 1201px) {
-        .card-section-02 .card__upward .upward-item-03 {
-          display: block;
-          height: 25em;
-          width: 15em;
-          margin: 1.5em 0 5em -3em;
-          background: #30124E; }
-          .card-section-02 .card__upward .upward-item-03::before {
-            content: '';
-            position: relative;
-            display: block;
-            height: 23.5em;
-            width: 10em;
-            margin: 1.5em 0 5em 1.8em;
-            background: #30124E;
-            z-index: 1; } }
-  .card-section-02 .card__downward {
-    display: flex;
-    flex-flow: column wrap; }
-    @media (min-width: 900px) and (max-width: 1200px) {
-      .card-section-02 .card__downward {
-        flex-flow: row wrap; } }
-    @media (min-width: 1201px) {
-      .card-section-02 .card__downward {
-        flex-flow: row wrap;
-        padding: 0;
-        margin-top: -2.5em; } }
-    .card-section-02 .card__downward .downward-item-01 {
-      flex: 1;
-      background: #30124E;
-      padding: 1em;
-      text-align: center;
-      color: #FFF; }
-      @media (min-width: 900px) and (max-width: 1200px) {
-        .card-section-02 .card__downward .downward-item-01 {
-          padding: 5em 8em 5em 6em;
-          text-align: left;
-          flex-grow: 22; } }
-      @media (min-width: 1201px) {
-        .card-section-02 .card__downward .downward-item-01 {
-          max-width: 50em;
-          padding: 5em 12em;
-          text-align: left;
-          flex-grow: 10; } }
-      .card-section-02 .card__downward .downward-item-01 .item-01-h4 {
-        color: #F61067;
-        font-family: "M PLUS 1p", sans-serif;
-        font-size: 0.8em;
-        font-weight: 800;
-        font-style: normal;
-        letter-spacing: 0.2em;
-        text-transform: uppercase; }
-      .card-section-02 .card__downward .downward-item-01 .item-01-h1 {
-        font-family: "M PLUS 1p", sans-serif;
-        font-size: 2em;
-        font-weight: 500;
-        font-style: normal;
-        color: #FCFCFC; }
-        @media (min-width: 1201px) {
-          .card-section-02 .card__downward .downward-item-01 .item-01-h1 {
-            font-family: "M PLUS 1p", sans-serif;
-            font-size: 1.6em;
-            font-weight: 500;
-            font-style: normal; } }
-      .card-section-02 .card__downward .downward-item-01 .item-01-h3 {
-        font-family: "M PLUS 1p", sans-serif;
-        font-size: 1em;
-        font-weight: 800;
-        font-style: normal;
-        color: #FCFCFC;
-        line-height: 2em;
-        margin-bottom: 2.5em; }
-        .card-section-02 .card__downward .downward-item-01 .item-01-h3 br {
-          display: none; }
-        @media (min-width: 1201px) {
-          .card-section-02 .card__downward .downward-item-01 .item-01-h3 {
-            font-family: "M PLUS 1p", sans-serif;
-            font-size: 0.8em;
-            font-weight: 800;
-            font-style: normal; }
-            .card-section-02 .card__downward .downward-item-01 .item-01-h3 br {
-              display: block; } }
-      .card-section-02 .card__downward .downward-item-01 .item-01-p {
-        font-family: "M PLUS 1p", sans-serif;
-        font-size: 0.8em;
-        font-weight: normal;
-        font-style: normal;
-        color: #FCFCFC;
-        line-height: 2em;
-        padding: 1em; }
-        .card-section-02 .card__downward .downward-item-01 .item-01-p br {
-          display: none; }
-        @media (min-width: 900px) and (max-width: 1200px) {
-          .card-section-02 .card__downward .downward-item-01 .item-01-p {
-            text-align: left;
-            padding: 0; } }
-        @media (min-width: 1201px) {
-          .card-section-02 .card__downward .downward-item-01 .item-01-p {
-            font-family: "M PLUS 1p", sans-serif;
-            font-size: 0.6em;
-            font-weight: 500;
-            font-style: normal;
-            padding: 0;
-            margin-bottom: 1.2em; }
-            .card-section-02 .card__downward .downward-item-01 .item-01-p br {
-              display: block; } }
-      .card-section-02 .card__downward .downward-item-01 .item-01-button {
-        width: 50%;
-        height: 3em;
-        font-family: "M PLUS 1p", sans-serif;
-        font-size: 1em;
-        font-weight: 500;
-        font-style: normal;
-        background: #F61067;
-        color: #FFF;
-        border: none;
-        border-radius: 1.5em;
-        text-transform: uppercase;
-        outline: none;
-        cursor: pointer; }
-        .card-section-02 .card__downward .downward-item-01 .item-01-button:hover {
-          background: #df0672;
-          transition: all 1s ease-in-out; }
-        @media (min-width: 900px) and (max-width: 1200px) {
-          .card-section-02 .card__downward .downward-item-01 .item-01-button {
-            width: 50%;
-            margin-top: 2em; } }
-        @media (min-width: 1201px) {
-          .card-section-02 .card__downward .downward-item-01 .item-01-button {
-            width: 30%;
-            margin: 1em 0 1em 0;
-            font-family: "M PLUS 1p", sans-serif;
-            font-size: 0.9em;
-            font-weight: 500;
-            font-style: normal; } }
-    .card-section-02 .card__downward .downward-item-02 {
-      flex: 1 0 20em;
-      background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Home_01_second_image.png");
-      background-blend-mode: normal;
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
-      background-position: center center; }
-      @media (min-width: 500px) and (max-width: 900px) {
-        .card-section-02 .card__downward .downward-item-02 {
-          flex: 1 0 35em; } }
-      @media (min-width: 900px) and (max-width: 1200px) {
-        .card-section-02 .card__downward .downward-item-02 {
-          height: 25em;
-          margin: 5em 1em 0 -7em; } }
-      @media (min-width: 1201px) {
-        .card-section-02 .card__downward .downward-item-02 {
-          max-width: 20em;
-          height: 25em;
-          margin: 9em 1em 0 -7em; } }
-    .card-section-02 .card__downward .downward-item-03 {
-      display: none; }
-      @media (min-width: 900px) and (max-width: 1200px) {
-        .card-section-02 .card__downward .downward-item-03 {
-          display: block; } }
-      @media (min-width: 1201px) {
-        .card-section-02 .card__downward .downward-item-03 {
-          display: block; } }
-      .card-section-02 .card__downward .downward-item-03 .item-03-p {
-        writing-mode: vertical-lr;
-        margin-top: 12em; }
-        @media (min-width: 900px) and (max-width: 1200px) {
-          .card-section-02 .card__downward .downward-item-03 .item-03-p {
-            font-family: "M PLUS 1p", sans-serif;
-            font-size: 1.2em;
-            font-weight: 500;
-            font-style: normal;
-            color: #5E239D;
-            padding: 2em;
-            margin-top: 7em;
-            letter-spacing: 0.2em; } }
-        @media (min-width: 1201px) {
-          .card-section-02 .card__downward .downward-item-03 .item-03-p {
-            font-family: "M PLUS 1p", sans-serif;
-            font-size: 1em;
-            font-weight: 500;
-            font-style: normal;
-            color: #5E239D;
-            padding: 0;
-            margin-top: 16em;
-            margin-left: 2.3em;
-            letter-spacing: 0.2em; } }
 
 .section-intro {
   padding: 6rem 6rem 0 6rem;
