@@ -306,8 +306,9 @@
             height: 30vh;
             border: none;
             text-align: center;
+            padding: 5em;
             @include desktop {
-                margin-top: 3.0em;
+                padding: 5em;
             }
         }
         h3.card__newsletter-h3 {
