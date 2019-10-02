@@ -214,7 +214,6 @@ h6 {
     margin-left: 10%; }
   .testimonial__section--image {
     height: 20rem;
-    margin-top: 5%;
     margin-left: 60%;
     position: absolute;
     top: -6%; }
@@ -301,15 +300,20 @@ h6 {
   z-index: 1; }
   .client__bg--title {
     color: #F61067;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin-left: 5%; }
   .client__bg--text {
     color: #FCFCFC;
-    padding-bottom: 5%; }
+    padding-bottom: 5%;
+    margin-left: 5%; }
 
 .value__card {
   color: #FCFCFC;
   border: 1px solid #FCFCFC;
-  margin: 2rem; }
+  margin-right: 2rem;
+  padding: 2rem;
+  margin-left: 5%;
+  margin-bottom: 10%; }
   .value__card:hover {
     background-color: #F61067; }
   .value__card--number {
