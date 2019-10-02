@@ -1,4 +1,4 @@
-// *********The card-section.html style starts here****************
+
 .card-section {
     .blank {
         margin: 0;
@@ -306,12 +306,22 @@
           
             border: none;
             text-align: center;
+<<<<<<< HEAD
             padding: 5em;
             @include desktop {
+<<<<<<< HEAD:sass/layouts/_card-section.scss~about1
                 padding:7rem 0;
             }
             @include mobile {
               
+=======
+                padding: 5em;
+=======
+            padding: 5em 0;
+            @include desktop {
+                padding: 5em 0;
+>>>>>>> fix bugs
+>>>>>>> fix bugs:sass/layouts/_card-section.scss
             }
         }
         h3.card__newsletter-h3 {
@@ -392,4 +402,3 @@
         color: #FFF;
     }
 }
-// *********The card-section.html style ends here****************
