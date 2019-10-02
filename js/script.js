@@ -4,8 +4,4 @@ $(function(){
       var file = '../components/' + $(this).data('include') + '.html';
       $(this).load(file);
     });
-<<<<<<< HEAD
   });
-=======
-  });
->>>>>>> complete service page one

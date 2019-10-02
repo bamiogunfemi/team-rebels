@@ -422,25 +422,9 @@ h6 {
   margin-bottom: 10%;
   width: auto; }
 
-.rectangle {
-  width: 35rem;
-  height: 20rem;
-  background-color: #00F0B5;
-  position: absolute;
-  top: 14rem;
-  left: 0;
-  z-index: -2;
-  margin-bottom: 5%; }
-
-.darkblue-rect {
-  background-color: #5E239D;
-  position: absolute;
-  left: 15%; }
-
-.pink-rect {
-  background-color: #F61067;
-  position: absolute;
-  left: 10%; }
+@media screen and (max-width: 768px) {
+  .main-image {
+    width: 300px; } }
 
 .footer-section {
   padding: 7rem;
@@ -1106,10 +1090,10 @@ nav {
     height: 30vh;
     border: none;
     text-align: center;
-    padding: 5em 0; }
+    padding: 5em; }
     @media (min-width: 1201px) {
       .card-section .card .card__newsletter {
-        padding: 5em 0; } }
+        padding: 5em; } }
   .card-section .card h3.card__newsletter-h3 {
     font-family: "M PLUS 1p", sans-serif;
     font-size: 1.5em;
