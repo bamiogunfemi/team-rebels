@@ -313,20 +313,9 @@
           
             border: none;
             text-align: center;
-            padding: 5em 0;
-            @include desktop {
-                padding: 5em 0;
-                // margin: 3em 0 3.5em 0;
-
             padding: 5em;
             @include desktop {
-                padding:7rem 0;
-            }
-            @include mobile {
-              
-
                 padding: 5em;
-
             }
         }
         h3.card__newsletter-h3 {
@@ -407,5 +396,5 @@
         color: #FFF;
     
 }
-}}
+}
 //*********The card-section.html style ends here****************
