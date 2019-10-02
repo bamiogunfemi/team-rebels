@@ -2,6 +2,7 @@
 
 $(function(){
 <<<<<<< HEAD
+<<<<<<< HEAD
   var includes = $('[data-include]');
   jQuery.each(includes, function(){
     var file = '../components/' + $(this).data('include') + '.html';
