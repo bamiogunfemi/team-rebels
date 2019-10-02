@@ -916,8 +916,6 @@ nav {
   .navbar-brand {
     margin-left: 10rem; } }
 
-<<<<<<< HEAD
-=======
 .card-section .blank {
   margin: 0;
   padding: 0; }
@@ -1378,7 +1376,6 @@ nav {
     border-radius: 50%;
     margin-left: 1.3em; }
 
->>>>>>> fix bugs
 @media screen and (max-width: 600px) {
   .about-header {
     width: 100%;
