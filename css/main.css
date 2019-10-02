@@ -1174,10 +1174,10 @@ nav {
     height: 30vh;
     border: none;
     text-align: center;
-    padding: 5em 0; }
+    padding: 5em; }
     @media (min-width: 1201px) {
       .card-section .card .card__newsletter {
-        padding: 5em 0; } }
+        padding: 5em; } }
   .card-section .card h3.card__newsletter-h3 {
     font-family: "M PLUS 1p", sans-serif;
     font-size: 1.5em;
