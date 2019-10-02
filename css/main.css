@@ -214,6 +214,7 @@ h6 {
     margin-left: 10%; }
   .testimonial__section--image {
     height: 20rem;
+    margin-top: 5%;
     margin-left: 60%;
     position: absolute;
     top: -6%; }
@@ -300,20 +301,15 @@ h6 {
   z-index: 1; }
   .client__bg--title {
     color: #F61067;
-    text-transform: uppercase;
-    margin-left: 5%; }
+    text-transform: uppercase; }
   .client__bg--text {
     color: #FCFCFC;
-    padding-bottom: 5%;
-    margin-left: 5%; }
+    padding-bottom: 5%; }
 
 .value__card {
   color: #FCFCFC;
   border: 1px solid #FCFCFC;
-  margin-right: 2rem;
-  padding: 2rem;
-  margin-left: 5%;
-  margin-bottom: 10%; }
+  margin: 2rem; }
   .value__card:hover {
     background-color: #F61067; }
   .value__card--number {
@@ -1106,10 +1102,10 @@ nav {
     height: 30vh;
     border: none;
     text-align: center;
-    padding: 5em; }
+    padding: 5em 0; }
     @media (min-width: 1201px) {
       .card-section .card .card__newsletter {
-        padding: 5em; } }
+        padding: 5em 0; } }
   .card-section .card h3.card__newsletter-h3 {
     font-family: "M PLUS 1p", sans-serif;
     font-size: 1.5em;
