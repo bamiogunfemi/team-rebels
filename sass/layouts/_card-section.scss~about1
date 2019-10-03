@@ -309,6 +309,7 @@
             padding: 5em;
             @include desktop {
 <<<<<<< HEAD:sass/layouts/_card-section.scss~about1
+<<<<<<< HEAD:sass/layouts/_card-section.scss~about1
                 padding:7rem 0;
             }
             @include mobile {
@@ -316,6 +317,9 @@
 =======
                 padding: 5em;
 >>>>>>> fix bugs:sass/layouts/_card-section.scss
+=======
+                padding: 5em;
+>>>>>>> f5aa356cc6597da85c582a0a44904b3c543fb790:sass/layouts/_card-section.scss
             }
         }
         h3.card__newsletter-h3 {
