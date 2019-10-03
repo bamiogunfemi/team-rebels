@@ -205,8 +205,11 @@ h6 {
 .u-padding-none {
   padding: 0; }
 
+<<<<<<< HEAD
 .u-margin-none {
   margin: 0; }
+=======
+>>>>>>> b153c816fe6f4f80743b1d23253d5c62e1e13d93
 .testimonial {
   margin-bottom: 10%; }
 
@@ -364,7 +367,11 @@ h6 {
   .value__card--title {
     font-weight: 800; }
 
+<<<<<<< HEAD
 @media screen and (max-width: 425px) {
+=======
+@media screen and (max-width: 368px) {
+>>>>>>> b153c816fe6f4f80743b1d23253d5c62e1e13d93
   .client__logo--title {
     margin-top: 2rem; }
   .client__logo--image {
