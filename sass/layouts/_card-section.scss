@@ -315,6 +315,13 @@
             text-align: center;
             padding: 5em;
             @include desktop {
+
+                padding: 5em;
+                padding:7rem 0;
+            }
+            @include mobile {
+              
+
                 padding: 5em;
             }
         }
