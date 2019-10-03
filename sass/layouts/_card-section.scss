@@ -306,30 +306,20 @@
           
             border: none;
             text-align: center;
-            padding: 5em;
+            padding: 5em;}
             @include desktop {
-<<<<<<< HEAD:sass/layouts/_card-section.scss~about1
-<<<<<<< HEAD:sass/layouts/_card-section.scss~about1
+
                 padding:7rem 0;
             }
             @include mobile {
               
-=======
+
                 padding: 5em;
-<<<<<<< HEAD:sass/layouts/_card-section.scss~about1
-=======
-            padding: 5em 0;
-            @include desktop {
-                padding: 5em 0;
->>>>>>> fix bugs
->>>>>>> fix bugs:sass/layouts/_card-section.scss
-=======
->>>>>>> work on home three and service one:sass/layouts/_card-section.scss
-=======
+
                 padding: 5em;
->>>>>>> b153c816fe6f4f80743b1d23253d5c62e1e13d93:sass/layouts/_card-section.scss
+
             }
-        }
+        
         h3.card__newsletter-h3 {
             @include font-property($default-font-family, 1.5em, 500, normal);
             @include desktop {
