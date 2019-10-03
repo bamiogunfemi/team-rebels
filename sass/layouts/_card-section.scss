@@ -313,20 +313,25 @@
           
             border: none;
             text-align: center;
-            padding: 5em;
+            padding: 5em;}
             @include desktop {
+<<<<<<< HEAD:sass/layouts/_card-section.scss
 <<<<<<< HEAD
 <<<<<<< HEAD:sass/layouts/_card-section.scss
                 padding: 5em 0;
                 // margin: 3em 0 3.5em 0;
 =======
 <<<<<<< HEAD:sass/layouts/_card-section.scss~about1
+=======
+
+>>>>>>> fix bugs:sass/layouts/_card-section.scss~about1
                 padding:7rem 0;
             }
             @include mobile {
               
-=======
+
                 padding: 5em;
+<<<<<<< HEAD:sass/layouts/_card-section.scss
 <<<<<<< HEAD:sass/layouts/_card-section.scss~about1
 =======
             padding: 5em 0;
@@ -353,8 +358,13 @@
 >>>>>>> fix bugs
 =======
 >>>>>>> work on home three and service one
+=======
+
+                padding: 5em;
+
+>>>>>>> fix bugs:sass/layouts/_card-section.scss~about1
             }
-        }
+        
         h3.card__newsletter-h3 {
             @include font-property($default-font-family, 1.3em, 500, normal);
             @include desktop {
